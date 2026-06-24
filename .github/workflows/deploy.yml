@@ -23,7 +23,11 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
+          flutter-version: '3.41.7'
           cache: true
+
+      - name: Verify Flutter version
+        run: flutter --version
 
       - name: Install dependencies
         run: flutter pub get
@@ -36,9 +40,9 @@ jobs:
             BASE_HREF="/${{ github.event.repository.name }}/"
           fi
           echo "Using base-href: $BASE_HREF"
-          flutter build web --release --base-href "$BASE_HREF"
+          flutter build web --release --base-href "$BASE_HREF" --no-wasm-dry-run
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: build/web
 
