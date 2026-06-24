@@ -31,7 +31,7 @@ class AppConstants {
   static const String location = 'Pakistan';
 
   /// Get a free key at https://web3forms.com using [email] — messages arrive in your inbox.
-  static const String web3FormsAccessKey = '6d130772-f49e-42c4-9919-a34ecec74456';
+  static const String web3FormsAccessKey = '6f8b4c56-38b5-4256-84af-2afbf8c40178';
 
   static const List<String> projectFilters = [
     'All',
