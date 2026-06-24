@@ -1,0 +1,31 @@
+name: my_portfolio_germm
+description: "Premium Flutter Web portfolio for Muhammad Zarrar Muavia."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.1
+  flutter_animate: ^4.5.2
+  font_awesome_flutter: ^10.8.0
+  animated_text_kit: ^4.2.3
+  visibility_detector: ^0.4.0+2
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/resume/Muhammad_Zarrar_Muavia_Resume.pdf
