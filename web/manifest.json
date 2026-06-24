@@ -1,11 +1,11 @@
 {
-    "name": "my_portfolio_germm",
-    "short_name": "my_portfolio_germm",
+    "name": "Muhammad Zarrar Muavia | Portfolio",
+    "short_name": "Zarrar.dev",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#0D1117",
+    "theme_color": "#0D1117",
+    "description": "Flutter developer portfolio of Muhammad Zarrar Muavia.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

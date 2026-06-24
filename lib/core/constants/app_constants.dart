@@ -25,7 +25,8 @@ class AppConstants {
       'assets/resume/Muhammad_Zarrar_Muavia_Resume.pdf';
   static const String resumeFileName = 'Muhammad_Zarrar_Muavia_Resume.pdf';
 
-  static const String linkedInUrl = 'https://linkedin.com/in/your-profile';
+  static const String linkedInUrl =
+      'https://www.linkedin.com/in/muhammad-zarrar-muavia-451456415';
   static const String gitHubUrl = 'https://github.com/your-username';
   static const String email = 'zarrarmuavia.dev@gmail.com';
   static const String location = 'Pakistan';
